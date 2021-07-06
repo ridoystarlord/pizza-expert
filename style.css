@@ -20,6 +20,9 @@ body{
 .menu{
     width: 50%;
 }
+.header-menu{
+    width: 100%;
+}
 .menu ul{
     list-style-type: none;
     display: flex;
@@ -97,7 +100,7 @@ h3{
 .relax-highlight-text{
     color: #FE4B2E;
 }
-.top-banner-left p, .about-me-right p{
+.top-banner-left p, .about-me-container p{
     margin-bottom: 40px;
     width: 75%;
     text-align: justify;
@@ -130,6 +133,7 @@ h3{
     height: 50%;
     margin-top: 25%;
     margin-bottom: 25%;
+    width: 100%;
 }
 
 .about-me{
