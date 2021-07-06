@@ -224,4 +224,10 @@ footer{
 ul{
     list-style-type: circle;
 }
+.sent-btn{
+    background-image: linear-gradient(tomato,orange);
+    border-radius: 10px;
+    padding: 3px 20px;
+    color: white;
+}
 /*---------------Contact CSS END------------------*/
