@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 .top-banner{
     display: flex;
@@ -25,20 +26,23 @@ body{
 }
 h1{
     font-size: 40px;
+    font-family: 'Patua One', cursive;
 }
 h2{
     font-size: 30px;
-    font-weight: 900;
+    font-family: 'Patua One', cursive;
 }
-h2{
-    font-size: 25px;
-    font-weight: 900;
+h3{
+    font-size: 20px;
+    font-family: 'Patua One', cursive;
 }
 .top-highlight-text, .footer-title-first-color{
     color: orange;
 }
 .top-banner-left p, .about-pizza-right p{
     margin-bottom: 40px;
+    width: 75%;
+    text-align: justify;
 }
 .about-pizza-left-image{
     width: 50%;
@@ -86,12 +90,22 @@ footer{
 .delivery-details{
     margin-bottom: 100px;
 }
-.footer-title{
-
+.delivery-pizza-category-title-description{
+    text-align: center;
+    margin-bottom: 50px;
 }
-.footer-description{
-
+.delivery-pizza-category-description{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .footer-title-second-color{
     color: grey;
+}
+.about-pizza{
+    background-image: url('images/shapes/about-pizza-bg.png');
+    background-repeat: no-repeat;
+}
+.footer-title{
+    font-family: 'Lato', sans-serif;
 }
