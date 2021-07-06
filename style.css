@@ -1,7 +1,8 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -42,12 +43,14 @@ li a:hover{
 /*---------------Header CSS END------------------*/
 
 
+/*---------------Top Banner CSS END------------------*/
+
 .top-banner{
     display: flex;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .top, .about{
     width: 50%;
@@ -61,15 +64,21 @@ li a:hover{
 }
 .pizza-image{
     width: 80%;
+    margin-top: 5%;
+    margin-left: 20%;
 }
-.order-pizza-btn, .contact-me-btn{
+/*---------------Top Banner CSS END------------------*/
+
+/*---------------Universal CSS Start------------------*/
+.know-about-pizza-btn, .contact-me-btn{
     text-decoration: none;
     color: white;
     padding: 10px 20px;
-    background-image: linear-gradient(100deg,orange,tomato);
+    background-image: linear-gradient(orange,tomato);
     border-radius: 10px;
     font-weight: 700
 }
+
 h1{
     font-size: 40px;
     font-family: 'Patua One', cursive;
@@ -82,21 +91,70 @@ h3{
     font-size: 20px;
     font-family: 'Patua One', cursive;
 }
-.top-highlight-text, .footer-title-first-color{
+.pizza-highlight-text, .footer-title-first-color{
     color: orange;
 }
-.top-banner-left p, .about-pizza-right p{
+.relax-highlight-text{
+    color: #FE4B2E;
+}
+.top-banner-left p, .about-me-right p{
     margin-bottom: 40px;
     width: 75%;
     text-align: justify;
 }
-.about-pizza-left-image{
+
+.pizza-category, .about-me, .social-media-box{
+    display: flex;
+}
+
+/*---------------Universal CSS END------------------*/
+
+
+/*---------------About Me CSS Start------------------*/
+.about-me-left{
+    position: relative;
+}
+.about-me{
+    margin-bottom: 100px;
+}
+.about-me-image{
     width: 50%;
     height: 80%;
     margin-left: 25%;
     margin-right: 25%;
     position: absolute;
     bottom: 0;
+}
+
+.about-me-container{
+    height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.about-me{
+    background-image: url('images/shapes/about-pizza-bg.png');
+    background-repeat: no-repeat;
+}
+
+/*---------------About Me CSS END------------------*/
+
+/*---------------Type of Pizza CSS Start------------------*/
+.types-of-pizza{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.types-of-pizza-left{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.types-of-pizza-description{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .pizza-item{
     width: 30%;
@@ -106,29 +164,32 @@ h3{
     padding: 1%;
     border-radius: 10px;
 }
+.pizza-item p{
+    text-align: justify;
+}
 .pizza-item-image{
     width: 100%;
 }
-.pizza-category, .about-pizza, .delivery-details-box{
-    display: flex;
-}
-.my-pizza-categories{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+
+/*---------------Type of Pizza CSS END------------------*/
+
+/*---------------Social Media CSS Start------------------*/
+.social-media{
     margin-bottom: 100px;
 }
-.delivery-box{
-    width: 33%;
-    text-align: center;
-}
-.delivery-details-box{
+.social-media-box{
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 5px 5px 20px grey;
     border-radius: 10px;
 }
+.social-media-container{
+    width: 33%;
+    text-align: center;
+}
+/*---------------Social Media CSS END------------------*/
+/*---------------Footer CSS Start------------------*/
 footer{
     background-color: black;
     color: white;
@@ -136,34 +197,11 @@ footer{
     padding-top: 3px;
     padding-bottom: 20px;
 }
-.delivery-details{
-    margin-bottom: 100px;
-}
-.delivery-pizza-category-title-description{
-    text-align: center;
-    margin-bottom: 50px;
-}
-.delivery-pizza-category-description{
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
 .footer-title-second-color{
-    color: grey;
-}
-.about-pizza{
-    background-image: url('images/shapes/about-pizza-bg.png');
-    background-repeat: no-repeat;
+    color: #FE4B2E;
 }
 .footer-title{
     font-family: 'Lato', sans-serif;
 }
+/*---------------Footer CSS END------------------*/
 
-.about-container{
-    height: 50%;
-    margin-top: 25%;
-    margin-bottom: 25%;
-}
-.about-pizza-left{
-    position: relative;
-}
